@@ -1,0 +1,299 @@
+/*
+ |  fur.zerendo - A small configurable blogger template.
+ |  @file       ./css/zerendo.dark.css
+ |  @author     SamBrishes <sam@pytes.net>
+ |  @version    1.0.0
+ |
+ |  @website    https://github.com/pytesNET/fur.zerendo
+ |  @license    X11 / MIT License
+ |  @copyright  Copyright © 2018 - 2019 SamBrishes, pytesNET <info@pytes.net>
+*/
+
+/* @start GENERAL */
+html, body{
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #101418;
+}
+
+/* Inline Elements */
+a{
+    color: #fff;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.25);
+}
+dfn, abbr, acronym{
+    color: rgba(255, 255, 255, 0.75);
+}
+code.grey{
+    color: #707478;
+    background-color: #101418;
+}
+code.grey.invert{
+    color: #fff;
+    background-color: #707478;
+}
+code, code.red{
+    color: #C84B5A;
+    background-color: #101418;
+}
+code.red.invert{
+    color: #fff;
+    background-color: #C84B5A;
+}
+code.orange{
+    color: #D7960A;
+    background-color: #101418;
+}
+code.orange.invert{
+    color: #fff;
+    background-color: #D7960A;
+}
+code.green{
+    color: #32BE32;
+    background-color: #101418;
+}
+code.green.invert{
+    color: #fff;
+    background-color: #32BE32;
+}
+code.blue{
+    color: #4B64C8;
+    background-color: #101418;
+}
+code.blue.invert{
+    color: #fff;
+    background-color: #4B64C8;
+}
+kbd{
+    color: rgba(255, 255, 255, 0.75);
+    border-color: #404448;
+    background-color: #303438;
+    box-shadow: 0 1px 1px #000408;
+    -moz-box-shadow: 0 1px 1px #000408;
+    -webkit-box-shadow: 0 1px 1px #000408;
+}
+
+/* Block Elements  */
+h1, h2, h3, h4, h5, h6{
+    color: rgba(255, 255, 255, 0.75);
+}
+h1.underlined, h2.underlined, h3.underlined,
+h4.underlined, h5.underlined, h6.underlined{
+    border-bottom-color: rgba(255, 255, 255, 0.15);
+}
+hr{
+    background-color: rgba(255, 255, 255, 0.25);
+}
+blockquote, address{
+    color: rgba(255, 255, 255, 0.75);
+}
+blockquote cite{
+    color: rgba(255, 255, 255, 0.45);
+}
+pre{
+    color: rgba(255, 255, 255, 0.75);
+    background-color: #101418;
+}
+table tr > *{
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Form Elements */
+input, select, textarea, button .button{
+    color: rgba(255, 255, 255, 0.6);
+
+    background-color: #303438;
+    border-color: rgba(255, 255, 255, 0.25);
+}
+input[type="button"]:active, .button-black:active,
+input[type="button"].active, .button-black.active,
+input[type="button"]:focus, .button-black:focus,
+input[type="button"].focus, .button-black.focus{
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.15);
+    -moz-box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.15);
+    -webkit-box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.15);
+}
+/* @end GENERAL */
+
+
+/* @start HEADER */
+.header .header-menu ul.sub-menu{
+    background-color: #ffffff;
+}
+.header .header-menu ul.sub-sub-menu{
+    background-color: #efefef;
+}
+.header .header-menu ul.sub-menu li.menu-item > a,
+.header .header-menu ul.sub-sub-menu li.menu-item > a{
+    color: #404448;
+}
+.header .header-menu li.menu-item:hover > a,
+.header .header-menu ul.main-menu.menu > li.menu-item.active:hover > a{
+    color: #101418;
+    text-shadow: none;
+    background-color: #ffffff;
+}
+.header .header-menu ul.sub-menu > li.menu-item:hover > a{
+    color: #101418;
+    text-shadow: none;
+    background-color: #efefef;
+}
+.header .header-menu ul.sub-sub-menu > li.menu-item:hover > a{
+    color: #101418;
+    text-shadow: none;
+    background-color: #dfdfdf;
+}
+.header .header-menu ul.sub-menu > li.menu-item.has-submenu > a:after{
+    color: #101418;
+    background-color: #ffffff;
+}
+.header .header-menu ul.main-menu.menu > li.menu-item.active > a{
+    color: #ffffff;
+    background-color: #101418;
+}
+/* @end HEADER */
+
+/* @start SHOWCASE */
+.showcase .showcase-overlay .container:before{
+    background-color: #202428;
+}
+.showcase .showcase-overlay .overlay-item,
+.showcase .showcase-overlay .overlay-item a{
+    color: #fff;
+    background-color: #202428;
+}
+.showcase .showcase-overlay .overlay-item a > span{
+    color: #101418;
+    background-color: #fff;
+}
+/* @end SHOWCASE */
+
+/* @start CONTENT */
+.content{
+    background-color: #101418;
+    background-image: linear-gradient(to bottom, rgba(48, 52, 56, 0.25) 0%,rgba(16, 20, 24, 1.0) 100%), url("../img/foggy_birds-dark.png");
+    background-image: -moz-linear-gradient(top, rgba(48, 52, 56, 0.25) 0%, rgba(16, 20, 24, 1.0) 100%), url("../img/foggy_birds-dark.png");
+    background-image: -webkit-linear-gradient(top, rgba(48, 52, 56, 0.25) 0%,rgba(16, 20, 24, 1.0) 100%), url("../img/foggy_birds-dark.png");
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40303438', endColorstr='#101418',GradientType=0 );
+}
+.content .content-inner,
+.content .content-inner:first-child{
+    border-top-color: rgba(255, 255, 255, 0.15);
+    background-color: #202428;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.9);
+    -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.9);
+}
+.content .content-inner .content-title{
+    color: rgba(255, 255, 255, 0.9);
+}
+.content .content-inner .content-subtitle{
+    color: rgba(255, 255, 255, 0.75);
+}
+
+/* Error 404 */
+.content .content-404 .content-title,
+.content .content-404 .content-subtitle{
+    color: #C84B5A;
+}
+
+/* SideBySide */
+.content .content-inner.content-sidebyside{
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.9), inset -330px 0 0 0 #101418;
+    -moz-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.9), inset -330px 0 0 0 #101418;
+    -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.9), inset -330px 0 0 0 #101418;
+}
+.content .content-inner.content-sidebyside .content-main{
+    border-right-color: rgba(255, 255, 255, 0.15);
+}
+.content-main > *{
+    border-bottom-color: rgba(255, 255, 255, 0.15);
+}
+.content-main > *:last-child{
+    border-bottom: 0;
+}
+.content-main .content-post .post-thumbnail{
+    border: 0;
+}
+.content-main .content-post .post-thumbnail img{
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background-color: #101418;
+}
+.content-main #disqus_thread{
+    border-top-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Post Loop */
+.content-list .post{
+    border-top-color: rgba(255, 255, 255, 0.15);
+}
+.content-list .post .post-thumbnail a .thumbnail-empty{
+    border-color: rgba(255, 255, 255, 0.25);
+    background-color: #101418;
+}
+.content-list .post .post-thumbnail a .thumbnail-empty:before{
+    color: rgba(255, 255, 255, 0.25);
+}
+.content-list .post .post-content .post-title{
+    color: rgba(255, 255, 255, 0.75);
+}
+.content-list .content-pagination .pagination-next,
+.content-list .content-pagination .pagination-prev{
+    color: #ffffff;
+    background-color: #101418;
+}
+.content-list .content-pagination .pagination-next:hover,
+.content-list .content-pagination .pagination-prev:hover{
+    color: #ffffff;
+    background-color: #4B64C8;
+}
+
+/* Featured */
+.content-featured .featured-post:first-child{
+    border-right-color: rgba(255, 255, 255, 0.15);
+}
+.content-featured .featured-post .post-content .post-title{
+    color: rgba(255, 255, 255, 0.75);
+}
+.content-featured .featured-post .post-content .post-excerpt{
+    color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background-color: #101418;
+}
+/* @end CONTENT */
+
+/* @start SIDEBAR */
+.content-aside{
+    border-left-color: rgba(255, 255, 255, 0.15);
+    background-color: #101418;
+}
+.content-aside .plugin,
+.content-aside .widget{
+    border-bottom-color: rgba(255, 255, 255, 0.15);
+}
+.content-aside .plugin .plugin-label,
+.content-aside .widget .widget-title{
+    color: rgba(255, 255, 255, 0.6);
+}
+.content-aside .plugin-content ul > li > a{
+    background-color: #303438:
+}
+.content-aside .plugin-pages ul li a,
+.content-aside .plugin-navigation ul li a,
+.content-aside .plugin-static-pages ul li a{
+    color: rgba(255, 255, 255, 0.5);
+}
+.content-aside .plugin-pages ul li:nth-child(2n+0) a,
+.content-aside .plugin-navigation ul li:nth-child(2n+0) a,
+.content-aside .plugin-static-pages ul li:nth-child(2n+0) a{
+    background-color: #202428;
+}
+/* @end SIDEBAR */
+
+/* @start FOOTER */
+.footer{
+    color: rgba(255, 255, 255, 0.4);
+}
+.footer a{
+    color: rgba(255, 255, 255, 0.6);
+}
+/* @end FOOTER */
